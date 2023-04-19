@@ -1,0 +1,13 @@
+language: node_js
+services: mongodb
+install:
+    - npm install
+    - npm install express
+    - npm install mongodb
+    - npm install --save-dev chai
+    - npm install chai-http
+    - npm install supertest
+before_script:
+    - cd /Task2/Task2.2
+script:
+    - npm install
